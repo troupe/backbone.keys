@@ -10,6 +10,8 @@ describe('Test Backbone.keys', function() {
         }
     });
 
+    View = backboneKeys.mixInto(View);
+
     beforeEach(function() {
         this.view = new View({
             bindKeysScoped: true,

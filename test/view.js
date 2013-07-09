@@ -41,3 +41,5 @@ View = Backbone.View.extend({
         return this;
     }
 });
+
+View = backboneKeys.mixInto(View);

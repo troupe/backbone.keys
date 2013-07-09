@@ -60,7 +60,8 @@ module.exports = function(grunt) {
                     _:true, $:true,
                     it:true, spyOn:true, describe:true,
                     expect: true, beforeEach: true,
-                    define:true, Backbone:true, document:true
+                    define:true, Backbone:true, document:true,
+                    backboneKeys: true
                 }
             }
         }
